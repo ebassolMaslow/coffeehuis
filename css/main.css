@@ -1,0 +1,2429 @@
+/* inter-regular - latin_cyrillic */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/inter-v12-latin_cyrillic-regular.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/inter-v12-latin_cyrillic-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/inter-v12-latin_cyrillic-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/inter-v12-latin_cyrillic-regular.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/inter-v12-latin_cyrillic-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/inter-v12-latin_cyrillic-regular.svg#Inter') format('svg'); /* Legacy iOS */
+}
+/* inter-500 - latin_cyrillic */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../fonts/inter-v12-latin_cyrillic-500.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/inter-v12-latin_cyrillic-500.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/inter-v12-latin_cyrillic-500.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/inter-v12-latin_cyrillic-500.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/inter-v12-latin_cyrillic-500.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/inter-v12-latin_cyrillic-500.svg#Inter') format('svg'); /* Legacy iOS */
+}
+/* inter-600 - latin_cyrillic */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  src: url('../fonts/inter-v12-latin_cyrillic-600.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/inter-v12-latin_cyrillic-600.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/inter-v12-latin_cyrillic-600.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/inter-v12-latin_cyrillic-600.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/inter-v12-latin_cyrillic-600.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/inter-v12-latin_cyrillic-600.svg#Inter') format('svg'); /* Legacy iOS */
+}
+/* inter-700 - latin_cyrillic */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/inter-v12-latin_cyrillic-700.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/inter-v12-latin_cyrillic-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/inter-v12-latin_cyrillic-700.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/inter-v12-latin_cyrillic-700.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/inter-v12-latin_cyrillic-700.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/inter-v12-latin_cyrillic-700.svg#Inter') format('svg'); /* Legacy iOS */
+}
+/* inter-800 - latin_cyrillic */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 800;
+  src: url('../fonts/inter-v12-latin_cyrillic-800.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/inter-v12-latin_cyrillic-800.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/inter-v12-latin_cyrillic-800.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/inter-v12-latin_cyrillic-800.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/inter-v12-latin_cyrillic-800.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/inter-v12-latin_cyrillic-800.svg#Inter') format('svg'); /* Legacy iOS */
+}
+/* inter-900 - latin_cyrillic */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 900;
+  src: url('../fonts/inter-v12-latin_cyrillic-900.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/inter-v12-latin_cyrillic-900.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/inter-v12-latin_cyrillic-900.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/inter-v12-latin_cyrillic-900.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/inter-v12-latin_cyrillic-900.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/inter-v12-latin_cyrillic-900.svg#Inter') format('svg'); /* Legacy iOS */
+}
+
+  *{
+    padding: 0px;
+	  margin: 0px;
+	  /*border:1px solid red; box-sizing:border-box;*/
+  }
+
+body{
+  background-color: #F2EDED;
+}
+
+/*контейнер начало*/
+
+.container {
+	width: 100%;
+	max-width: 1514px;
+	margin: 0 auto;
+}
+
+/*контейнер конец*/
+
+/*хедер начало*/
+
+.main-menu {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.main-menu_left {
+  justify-content: flex-start;
+  align-items: center;
+  font-weight: 700;
+  font-size: 14px;
+}
+.main-menu_right {
+  justify-content: flex-end;
+  width: 300px;
+}
+.main-menu__link {
+  font-family: 'Inter';
+  font-size: 16px;
+  color: black;
+  text-decoration: none;
+  margin: 15px;
+  margin-right: 62px;
+}
+
+.main-menu__link:hover {
+ color: #885757;
+ transition: 0.3s ease;
+}
+
+hr {
+  width: 100%;
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 2px solid #ccc;
+  margin: 0px;
+  padding: 0;
+  position: absolute;
+}
+
+.logo{
+  margin-right: 50px;
+  width: 70px;
+  height: 79px;
+}
+
+.btn{
+  cursor: pointer;
+}
+
+/*хедер конец*/
+
+/*первая секция*/
+
+.first_block{
+  padding-top: 80px;
+}
+
+.first_section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.first_block_left{
+  background-color:#E0E0C9;
+  width: 645px;
+  height: 464px;
+  border-radius: 30px 0px 0px 30px;
+}
+
+.See_menu{
+  padding-top: 127px;
+  text-align: center;
+  font-family: 'Inter';
+  font-size: 28px;
+}
+
+.classic_coffe{
+  font-family: 'Inter';
+  font-size: 16px;
+  width: 269px;
+  margin-left: 180px;
+  padding-top: 40px;
+  padding-bottom: 56px;
+}
+
+.btn1section{
+  color: black;
+	display: inline-block;
+	vertical-align: middle;
+  border: 2.5px solid;
+	width: 115px;
+	line-height: 34px;
+	height: 34px;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 19px;
+	background: none;
+	font-family: 'Inter';
+	font-weight: 500;
+	font-size: 16px;
+  margin-left: 258px;
+}
+
+.btn1section:hover{
+  color: #885757;
+  transition: 0.3s ease;
+}
+
+
+/*вторая секция*/
+
+.second_section{
+  display: flex;
+  justify-content: center;
+  padding-top: 36px;
+}
+
+.second_block_right{
+  background-color:#885757;
+  width: 680px;
+  height: 460px;
+  border-radius: 0px 30px 30px 0px;
+}
+
+.Ocenite{
+  padding-top: 115px;
+  text-align: center;
+  font-family: 'Inter';
+  font-size: 28px;
+  color: #DEDDDD;
+}
+
+.make_card {
+  font-family: 'Inter';
+  font-size: 16px;
+  width: 295px;
+  margin-left: 180px;
+  padding-top: 40px;
+  padding-bottom: 56px;
+  color: #DEDDDD;
+}
+
+.btn2section{
+  color: #DEDDDD;
+	display: inline-block;
+	vertical-align: middle;
+  border: 2.5px solid;
+	width: 115px;
+	line-height: 34px;
+	height: 34px;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 19px;
+	background: none;
+	font-family: 'Inter';
+	font-weight: 500;
+	font-size: 16px;
+  margin-left: 260px;
+}
+
+.btn2section:hover{
+  color: black;
+  transition: 0.3s ease;
+}
+
+/*вторая секция конец*/
+
+/*третья секция*/
+
+.third_section{
+  display: flex;
+  justify-content: center;
+  padding-top: 36px;
+}
+
+.third_block_left{
+  background-color:#F4C5A1;
+  width: 645px;
+  height: 460px;
+  border-radius: 30px 0px 0px 30px;
+}
+
+.Ocenite_card{
+  padding-top: 115px;
+  text-align: center;
+  font-family: 'Inter';
+  font-size: 28px;
+  color: black;
+}
+
+.make_card_third{
+  font-family: 'Inter';
+  font-size: 16px;
+  width: 295px;
+  margin-left: 180px;
+  padding-top: 40px;
+  padding-bottom: 56px;
+  color: black;
+}
+
+.btn3section{
+  color: black;
+	display: inline-block;
+	vertical-align: middle;
+  border: 2.5px solid;
+	width: 115px;
+	line-height: 34px;
+	height: 34px;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 19px;
+	background: none;
+	font-family: 'Inter';
+	font-weight: 500;
+	font-size: 16px;
+  margin-left: 260px;
+}
+
+.btn3section:hover{
+  color: #885757;
+  transition: 0.3s ease;
+}
+
+/*третья секция конец*/
+
+/*заголовок*/
+
+.zagolovok_last{
+  padding-top: 94px;
+  padding-bottom: 37px;
+  margin-left: 96px;
+  font-family: 'Inter';
+  font-size: 48px;
+  color: black;
+}
+
+/*заголовок конец*/
+
+/*слайдер*/
+
+.slaider_js{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 135px;
+}
+
+.strelka_left{
+  padding-top: 180px;
+  margin-right: 29px;
+  cursor: pointer;
+}
+
+.strelka_right{
+  padding-top: 180px;
+  margin-left: 29px;
+  cursor: pointer;
+}
+
+.main_coffe{
+  margin-right: 32px;
+}
+
+.slider{
+  width: 900px;
+  height: 466px;
+  overflow: hidden;
+}
+
+.slider-line{
+  display: flex;
+  width: 1287px;
+  height: 466px;
+  position: relative;
+  left: 0;
+  transition: all ease 0.7s;
+}
+
+.slaider_div{
+  display: flex;
+  padding-bottom: 135px;
+  padding-left: 100px;
+}
+
+/*слайдер конец*/
+
+/*футер*/
+
+.columns{
+  display: flex;
+  padding-top: 23px;
+  padding-bottom: 23px;
+}
+
+.first_column{
+  width: 506px;
+}
+
+.second_column{
+  width: 506px;
+}
+
+.third_column{
+  width: 506px;
+}
+
+.coffehuis{
+  font-family: 'Inter';
+  font-size: 32px;
+  font-weight: 600;
+  margin-left: 22px;
+}
+
+.coffe_dik{
+  width: 150px;
+  height: 81px;
+  margin-top: 23px;
+  margin-left: 15px;
+  height: 31px;
+}
+
+.sobaka_fotter{
+  padding-top: 70px;
+  padding-right: 100px;
+  width: 150px;
+}
+
+.logo_footer_div{
+  display: flex;
+  align-items: center;
+  padding-bottom: 10px;
+}
+
+.pochta{
+  padding-top: 12px;
+  padding-bottom: 18px;
+  font-family: 'Inter';
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.VK{
+  margin-right: 27px;
+  cursor: pointer;
+}
+
+.TG{
+  margin-right: 27px;
+  cursor: pointer;
+}
+
+.WA{
+  cursor: pointer;
+}
+
+.sobaka{
+  font-family: 'Inter';
+  font-size: 12px;
+  font-weight: 600;
+  padding-left: 10px;
+}
+
+.nomer{
+  font-family: 'Inter';
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.zvonki{
+  color: #A19797;
+  font-family: 'Inter';
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.adres{
+  font-family: 'Inter';
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.div_adres{
+  width: 270px;
+  padding-top: 18px;
+}
+
+.div_zvonki{
+  padding-top: 8px;
+}
+
+/*футер конец*/
+
+/*форма жиес*/
+
+.block-auth{
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #F2EDED;
+  margin: 3em auto;
+  padding: 0 1em;
+  width: 720px;
+  height: 485px;
+  border: 2.5px solid black;
+  border-radius: 15px;
+  box-shadow: 0 0 0 9999px rgb( 0 0 0 / 70%);
+}
+
+.krestik-img{
+  width: 25px;
+  height: 25px;
+}
+
+.btn-close-div{
+  padding-top: 20px;
+  padding-left: 355px;
+}
+
+.close-button-auth{
+  border: none;
+}
+
+.div-zag-form{
+  display: flex;
+}
+
+.b-show{
+  display: block;
+  width: 720px;
+  height: 435px;
+}
+
+.input_form{
+  font-size: 29px;
+  box-sizing: border-box;
+  width: 671px;
+  height: 74px;
+  border-radius: 9px;
+  border: 2.5px solid black;
+  background-color: #F2EDED;
+  padding-left: 23px;
+  
+}
+
+.zag_form{
+  font-size: 48px;
+  font-weight: 600;
+  font-family: 'Inter';
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-bottom: 34px;
+}
+
+.form-item{
+  padding-bottom: 33px;
+  padding-left: 16px;
+}
+
+.button-panel{
+  padding-left: 18px;
+}
+
+.submit{
+  width: 671px;
+  height: 74px;
+  border-radius: 9px;
+  background-color: black;
+  color:white ;
+  font-size: 29px;
+  font-family: 'Inter';
+}
+
+.submit:hover{ 
+  font-weight: 600;
+  color: black;
+  transition: 0.3s ease;  
+  background-color: #F2EDED;
+  cursor: pointer;
+}
+
+
+/******************/
+/*                */
+/*                */
+/*меню с напитками*/
+/*                */
+/*                */
+/******************/
+
+.bok_menu_nav{
+  width: 126px;
+  list-style: none;
+  margin-left: 41px;
+}
+
+.zagolovok_bok{
+  font-family: 'Inter';
+  font-size: 24px;
+  font-weight: 600;
+  text-decoration: none;
+  color: black;
+}
+
+.zagolovok_bok:hover{
+  color: #885757;
+  transition: 0.3s ease;
+  font-weight: 600;
+}
+
+.bol_menu_napitki{
+  text-decoration: none;
+}
+
+.text_bok{
+  list-style-type: none;
+  font-family: 'Inter';
+  font-size: 20px;
+  font-weight: 500;
+  padding-top: 17px;
+}
+
+.bok_menu_nav{
+  padding-top: 69px;
+}
+
+.spisok_one{
+  padding-bottom: 50px;
+}
+
+/*менюшка с напитками*/
+
+.menu_napitki_right{
+  display: flex;
+}
+
+.menu_eat_js{
+  display: block;
+  position: relative;
+}
+
+.napitki_js{
+  display: block;
+  position: relative;
+}
+
+.slaider-menu{
+  display: flex;
+  position: relative;
+  width: 2048px;
+  left: 0;
+  transition: all ease 1s;
+}
+
+.slaider-slaider{
+  overflow: hidden;
+  width: 1048px;
+}
+
+.menu_three_elements{
+  padding-top: 55px;
+  margin-left: 186px;
+}
+
+.menu_zag{
+  font-family: 'Inter';
+  font-size: 48px;
+  font-weight: 600;
+  padding-bottom: 46px;
+}
+
+.napitki_menu_eda{
+  font-size: 24px;
+  font-family: 'Inter';
+  font-weight: 600;
+  margin-right: 27px;
+  color: black;
+  text-decoration: none;
+}
+
+.napitki_menu_eda:hover{
+  color: #885757;
+  transition: 0.3s ease;
+  font-weight: 600;
+}
+
+.eda_menu_eda{
+  font-size: 24px;
+  font-family: 'Inter';
+  font-weight: 500;
+  color: black;
+  text-decoration: none;
+}
+
+.eda_menu_eda:hover{
+  color: #885757;
+  transition: 0.3s ease;
+}
+
+.coffe_menu{
+  padding-top: 38px;
+}
+
+.coffe_menu_text{
+  font-size: 24px;
+  font-family: 'Inter';
+  font-weight: 600;
+}
+
+.menu_hr{
+  border-top: 2px solid #CEC6C6;
+  width: 1047px;
+  padding-top: 20px;
+}
+
+.div_hr{
+  padding-top: 20px;
+}
+
+.divi_coffe{
+  display: flex;
+  padding-top: 46px;
+}
+
+.div_latte{
+  margin-right: 102px;
+}
+
+.div_capuch{
+  margin-right: 102px;
+}
+
+.div_amerikano{
+  margin-right: 102px;
+}
+
+.lat_text{
+  font-size: 25px;
+  font-family: 'Inter';
+  font-weight: 400;
+  margin-left: 42px;
+}
+
+.capuchino_text{
+  font-size: 25px;
+  font-family: 'Inter';
+  font-weight: 400;
+  margin-left: 19px;
+}
+
+.amerik_text{
+  font-size: 25px;
+  font-family: 'Inter';
+  font-weight: 400;
+  margin-left: 11px;
+}
+
+.raf_text{
+  font-size: 25px;
+  font-family: 'Inter';
+  font-weight: 400;
+  margin-left: 56px;
+}
+
+.divi_chai{
+  padding-top: 46px;
+  display: flex;
+}
+
+.div_assam{
+  margin-right: 102px;
+}
+
+.ulun_text{
+  font-size: 25px;
+  font-family: 'Inter';
+  font-weight: 400;
+  margin-left: 47px;
+}
+
+.ceilon{
+  font-size: 25px;
+  font-family: 'Inter';
+  font-weight: 400;
+  margin-right: 22px;
+  width: 150px;
+  text-align: center;
+}
+
+.yellow{
+  font-size: 25px;
+  font-family: 'Inter';
+  font-weight: 400;
+  text-align: center;
+}
+
+.hot_drinks{
+  margin-left: 0px;
+}
+
+.divi_hot_drink{
+  margin-left: 0px;
+  padding-top: 46px;
+  display: flex;
+}
+
+.div_glint{
+  margin-right: 102px;
+}
+
+.glintveyn{
+  font-size: 25px;
+  font-family: 'Inter';
+  font-weight: 400;
+  text-align: center;
+}
+
+.sbiten_text{
+  font-size: 25px;
+  font-family: 'Inter';
+  font-weight: 400;
+  text-align: center;
+}
+
+.sbiten{
+  margin-left: 33px;
+  width: 105px;
+  text-align: center;
+}
+
+.apelsin{
+  margin-left: 3px;
+  width: 160px;
+  text-align: center;
+}
+
+.apelsin_text{
+  font-size: 25px;
+  font-family: 'Inter';
+  font-weight: 400;
+  text-align: center;
+}
+
+.shokolad{
+  width: 112px;
+  margin-left: 23px;
+  text-align: center;
+}
+
+.shokolad_text{
+  font-size: 25px;
+  font-family: 'Inter';
+  font-weight: 400;
+  text-align: center;
+}
+
+.cold_drinks{
+  margin-left: 0px;
+  padding-top: 20px;
+}
+
+.divi_cold_drinks{
+  margin-left: 0px;
+  padding-top: 46px;
+  display: flex;
+  padding-bottom: 37px;
+}
+
+
+/******************/
+/*                */
+/*                */
+/*  меню с едой   */
+/*                */
+/*                */
+/******************/
+
+.eda_menu_eda_eda{
+  font-size: 24px;
+  font-family: 'Inter';
+  font-weight: 600;
+  color: black;
+  text-decoration: none;
+}
+
+.eda_menu_eda_eda:hover{
+  color: #885757;
+  transition: 0.3s ease;
+}
+
+.napitki_menu_eda_napitki{
+  font-size: 24px;
+  font-family: 'Inter';
+  font-weight: 500;
+  color: black;
+  text-decoration: none;
+  margin-right: 27px;
+}
+
+.napitki_menu_eda_napitki:hover{
+  color: #885757;
+  transition: 0.3s ease;
+}
+
+.indeika{
+  margin-left: 0px;
+  width: 170px;
+  text-align: center;
+}
+
+.indeika_text{
+  font-size: 25px;
+  font-family: 'Inter';
+  font-weight: 400;
+  text-align: center;
+}
+
+.avakado{
+  margin-left: 32px;
+  width: 103px;
+  text-align: center;
+}
+
+.avakado_text{
+  font-size: 25px;
+  font-family: 'Inter';
+  font-weight: 400;
+  text-align: center;
+}
+
+.pomidori{
+  margin-left: 10px;
+  width: 164px;
+  text-align: center;
+}
+
+.pomidori_text{
+  font-size: 25px;
+  font-family: 'Inter';
+  font-weight: 400;
+  text-align: center;
+}
+
+.francuz{
+  margin-left: 0px;
+  width: 170px;
+  text-align: center;
+}
+
+.francuz_text{
+  font-size: 25px;
+  font-family: 'Inter';
+  font-weight: 400;
+  text-align: center;
+}
+
+.pechen_shoko{
+  margin-left: 0px;
+  width: 154px;
+  text-align: center;
+}
+
+.pechen_shoko_text{
+  font-size: 25px;
+  font-family: 'Inter';
+  font-weight: 400;
+  text-align: center;
+}
+
+.lol{
+  margin-left: 20px;
+  width: 117px;
+  text-align: center;
+}
+
+.lol_text{
+  font-size: 25px;
+  font-family: 'Inter';
+  font-weight: 400;
+  text-align: center;
+}
+
+.ovsynka{
+  margin-left: 25px;
+  width: 110px;
+  text-align: center;
+}
+
+.ovsynka_text{
+  font-size: 25px;
+  font-family: 'Inter';
+  font-weight: 400;
+  text-align: center;
+}
+
+.limon{
+  margin-left: 20px;
+  width: 130px;
+  text-align: center;
+}
+
+.limon_text{
+  font-size: 25px;
+  font-family: 'Inter';
+  font-weight: 400;
+  text-align: center;
+}
+
+.yogurt{
+  padding-top: 25px;
+  margin-left: 0px;
+}
+
+.malina{
+  margin-left: 30px;
+  width: 110px;
+  text-align: center;
+}
+
+.malina_text{
+  font-size: 25px;
+  font-family: 'Inter';
+  font-weight: 400;
+  text-align: center;
+}
+
+.grand_yogurt{
+  margin-left: 40px;
+  width: 92px;
+  text-align: center;
+}
+
+.grand_yogurt_text{
+  font-size: 25px;
+  font-family: 'Inter';
+  font-weight: 400;
+  text-align: center;
+}
+
+.golubika_text{
+  font-size: 25px;
+  font-family: 'Inter';
+  font-weight: 400;
+  text-align: center;
+}
+
+.golubika{
+  margin-left: 20px;
+  width: 128px;
+  text-align: center;
+}
+
+.divi_yogurt{
+  margin-left: 0px;
+  padding-top: 46px;
+  display: flex;
+  padding-bottom: 21px;
+}
+
+
+
+/******************/
+/*                */
+/*                */
+/*     Акции      */
+/*                */
+/*                */
+/******************/
+
+.overlay{
+  display: block;
+  margin: auto;
+  background-color: #846262;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 658px;
+  background-position: center;
+}
+
+.akcii{
+  font-size: 48px;
+  font-family: 'Inter';
+  font-weight: 600;
+}
+
+.akcii_zag{
+  padding-top: 60px;
+  padding-left: 20px;
+  padding-bottom: 30px;
+}
+
+.free_coffee{
+  display: flex;
+}
+
+.akcii_text{
+  padding-top: 174px;
+}
+
+.free_coffee_text{
+  font-size: 48px;
+  font-family: 'Inter';
+  font-weight: 600;
+  color: #F2EDED;
+  width: 498px;
+  margin-left: 5px;
+}
+
+.promokod{
+  font-size: 48px;
+  font-style: italic;
+  color: #56ABE9;
+  font-family: 'Inter';
+  font-weight: 600;
+}
+
+.po_karte{
+  font-weight: 600;
+  font-size: 24px;
+  font-family: 'Inter';
+  color: #F2EDED;
+  padding-top: 28px;
+  margin-left: 7px;
+}
+
+.coffe_photo_akcii{
+  padding-top: 70px;
+  margin-left: 129px;
+}
+
+.how_get_zag{
+  text-align: center;
+  font-size: 48px;
+  font-family: 'Inter';
+  font-weight: 600;
+  padding-top: 60px;
+}
+
+.tri_kryga{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 116px;
+  padding-bottom: 114px;
+}
+
+.f_text_zag{
+  text-align: center;
+  font-size: 32px;
+  font-family: 'Inter';
+  font-weight: 600;
+  text-align: center;
+}
+
+.f_kryg{
+  width: 318px;
+}
+
+.zag_f{
+  text-align: center;
+  padding-top: 36px;
+}
+
+.photo_f{
+  text-align: center;
+}
+
+.f_text{
+  padding-top: 35px;
+  text-align: center;
+  font-size: 24px;
+  font-family: 'Inter';
+  font-weight: 400;
+}
+
+.s_text_zag{
+  text-align: center;
+  font-size: 32px;
+  font-family: 'Inter';
+  font-weight: 600;
+  text-align: center;
+}
+
+.s_kryg{
+  width: 332px;
+}
+
+.zag_s{
+  text-align: center;
+  padding-top: 36px;
+}
+
+.photo_s{
+  text-align: center;
+}
+
+.s_text{
+  padding-top: 35px;
+  text-align: center;
+  font-size: 24px;
+  font-family: 'Inter';
+  font-weight: 400;
+}
+
+.t_text_zag{
+  text-align: center;
+  font-size: 32px;
+  font-family: 'Inter';
+  font-weight: 600;
+  text-align: center;
+}
+
+.t_kryg{
+  width: 319px;
+}
+
+.zag_t{
+  text-align: center;
+  padding-top: 36px;
+}
+
+.photo_t{
+  text-align: center;
+}
+
+.t_text{
+  padding-top: 35px;
+  text-align: center;
+  font-size: 24px;
+  font-family: 'Inter';
+  font-weight: 400;
+}
+
+.overlay_six_coffe{
+  display: block;
+  margin: auto;
+  background-color: #F4C5A1;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 353px;
+  background-position: center;
+}
+
+.six_akciya{
+  display: flex;
+  margin-left: 260px;
+}
+
+.photo_akciy{
+  padding-top: 44px;
+}
+
+.six_text_alciya{
+  padding-top: 131px;
+  font-size: 48px;
+  font-family: 'Inter';
+  width: 500px;
+  margin-left: 173px;
+}
+
+.container_six_akciyi{
+  padding-bottom: 102px;
+}
+
+/******************/
+/*                */
+/*                */
+/*     Контакты   */
+/*                */
+/*                */
+/******************/
+
+.akcii{
+  margin-left: 20px;
+}
+
+.overlay_contact{
+  display: block;
+  margin: auto;
+  background-color: #DDD0D0;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 658px;
+  background-position: center;
+}
+
+.div_contacts{
+  display: flex;
+}
+
+.google_card{
+  padding-top: 55px;
+}
+
+.dannie{
+  width: 396px;
+  padding-top: 109px;
+  padding-left: 170px;
+}
+
+.dannie_text_zag{
+  font-size: 40px;
+  font-family: 'Inter';
+  font-weight: 600;
+}
+
+.dannie_text{
+  font-size: 29px;
+  font-family: 'Inter';
+  font-weight: 400;
+}
+
+.adres{
+  padding-top: 60px;
+}
+
+.pochta_contacts{
+  padding-top: 60px;
+}
+
+.container_contacts{
+  padding-bottom: 144px;
+}
+
+.obtatnaya_svyaz{
+  display: flex;
+}
+
+.text_name_contacts{
+  box-sizing: border-box;
+  width: 671px;
+  height: 74px;
+  border-radius: 9px;
+  border: 2.5px solid black;
+  background-color: #F2EDED;
+}
+
+::placeholder{
+  box-sizing: border-box;
+  font-size: 29px;
+  color: #908B8B;
+  font-weight: 400px;
+}
+
+.otziv_hotite{
+  font-size: 48px;
+  font-family: 'Inter';
+  font-weight: 600;
+  padding-top: 21px;
+}
+
+.text_input__input{
+  font-size: 29px;
+  box-sizing: border-box;
+  width: 671px;
+  height: 74px;
+  border-radius: 9px;
+  border: 2.5px solid black;
+  background-color: #F2EDED;
+  padding-left: 23px;
+}
+
+.text_input__input_big{
+  font-size: 29px;
+  box-sizing: border-box;
+  width: 671px;
+  height: 214px;
+  border-radius: 9px;
+  border: 2.5px solid black;
+  background-color: #F2EDED;
+  padding-left: 23px;
+}
+
+.photo_otzivi{
+  padding-left: 99px;
+}
+
+.text_input{
+  padding-top: 63px;
+}
+
+.email_inpit{
+  padding-top: 35px;
+}
+
+.tekst_otziva{
+  padding-top: 45px;
+}
+
+.ostavit_knopka{
+  padding-top: 43px;
+}
+
+.button_submit{
+  width: 671px;
+  height: 74px;
+  border-radius: 9px;
+  background-color: black;
+  color:white ;
+  font-size: 29px;
+  font-family: 'Inter';
+  cursor: pointer;
+}
+
+.button_submit:hover{
+  font-weight: 600;
+  color: black;
+  transition: 0.3s ease;  
+  background-color: #F2EDED;
+}
+
+.otziv{
+  padding-bottom:37px ;
+}
+
+textarea{
+  font-family: 'Inter';
+  padding-top: 10px;
+}
+
+/******************/
+/*                */
+/*                */
+/*     Профиль    */
+/*                */
+/*                */
+/******************/
+
+textarea{
+ resize: none;
+}
+
+.overlay_profile{
+  display: block;
+  margin: auto;
+  background-color: #DDD0D0;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 104px;
+  background-position: center;
+}
+
+.profile_zag{
+  padding-top: 23px;
+  font-size: 48px;
+  font-weight: 600;
+  text-align: center;
+  font-family: 'Inter';
+}
+
+.bonus_card_div{
+  display: flex;
+}
+
+.bonus_card_photo_div{
+  margin-left: 58px;
+  padding-top: 55px;
+}
+
+.forma_profile{
+  padding-top: 30px;
+}
+
+.sdelat_kartu{
+  padding-top: 17px;
+  font-size:20px;
+  color: #908B8B;
+  font-family: 'Inter';
+  margin-left: 90px;
+}
+
+.bonus_card{
+  padding-bottom: 34px;
+}
+
+/******************/
+/*                */
+/*                */
+/*     Медиа      */
+/*                */
+/*                */
+/******************/
+
+/******************/
+/*                */
+/*                */
+/*                */
+/*                */
+/*                */
+/******************/
+
+/******************/
+/*                */
+/*                */
+/*     Запросы    */
+/*                */
+/*                */
+/******************/
+
+/******************/
+/*                */
+/*                */
+/*                */
+/*                */
+/*                */
+/******************/
+
+/******************/
+/*                */
+/*                */
+/*     Планшет    */
+/*                */
+/*                */
+/******************/
+
+/******************/
+/*                */
+/*                */
+/*                */
+/*                */
+/*                */
+/******************/
+
+@media (min-width: 768px) and (max-width: 1023px) { 
+	.container {
+		width: 100%;
+		max-width: 768px;
+		margin: 0 auto;
+	}
+
+  .first_section{
+    display: block;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .first_block_left{
+    background-color:#E0E0C9;
+    width: 680px;
+    height: 464px;
+    border-radius: 30px 30px 30px 30px;
+    margin-left: 40px;
+  }
+
+  .photo_block_right{
+    border-radius: 30px 30px 30px 30px;
+    margin-left: 40px;
+  }
+
+  .classic_coffe{
+    font-family: 'Inter';
+    font-size: 16px;
+    width: 269px;
+    margin-left: 200px;
+    padding-top: 40px;
+    padding-bottom: 56px;
+  }
+
+  .second_section{
+    display: block;
+    justify-content: center;
+    padding-top: 36px;
+  }
+
+  .photo_block_left_two{
+    border-radius: 30px 30px 30px 30px;
+    margin-left: 40px;
+    width: 680px;
+  }
+
+  .second_block_right{
+    background-color:#885757;
+    width: 680px;
+    height: 460px;
+    border-radius: 30px 30px 30px 30px;
+    margin-left: 40px;
+  }
+  
+
+  .third_section{
+    display: block;
+    justify-content: center;
+    padding-top: 36px;
+  }
+
+  .third_block_left{
+    background-color:#F4C5A1;
+    width: 680px;
+    height: 460px;
+    border-radius: 30px 30px 30px 30px;
+    margin-left: 40px;
+  }
+
+  .main_coffe1{
+    margin-right: 32px;
+    width: 212px;
+    height: 319px;
+  }
+
+  .main_coffe2{
+    margin-right: 0px;
+    width: 212px;
+    height: 319px;
+  }
+
+  .main_coffe3{
+    display: none;
+  }
+
+  .zagolovok_last{
+    padding-top: 94px;
+    padding-bottom: 37px;
+    margin-left: 96px;
+    font-family: 'Inter';
+    font-size: 36px;
+    color: black;
+  }
+
+  .strelka_left{
+    padding-top: 105px;
+    margin-right: 29px;
+  }
+  .strelka_left:hover{
+    cursor: pointer;
+  }
+  .strelka_right{
+    padding-top: 105px;
+    margin-left: 29px;
+  }
+
+  .slaider_js{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 95px;
+  }
+
+  .divi_coffe{
+    display: block;
+    padding-top: 46px;
+  }
+
+  .menu_hr{
+    width: 160px;
+  }
+
+  .divi_chai{
+    display: block;
+    padding-top: 46px;
+  }
+
+  .divi_hot_drink{
+    display: block;
+  }
+
+  .divi_cold_drinks{
+    display: block;
+  }
+
+  .glintveyn{
+    text-align: start;
+  }
+
+  .hot_drinks{
+    padding-top: 50px;
+  }
+
+  .divi_yogurt{
+    display: block;
+  }
+
+  .coffe_promik{
+    display: none;
+  }
+
+  .six_coffee_klas{
+    display: none;
+    width: 0px;
+    height: 0px;
+  }
+
+  .six_text_alciya{
+    margin-left: 0px;
+  }
+
+  .six_akciya{
+    margin-left: 167px;
+  }
+
+.akcii_text{
+  margin-left: 110px;
+}
+
+.div_contacts{
+  display: block;
+}
+
+.overlay_contact{
+  display: block;
+  margin: auto;
+  background-color: #DDD0D0;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1258px;
+  background-position: center;
+}
+
+iframe{
+  width: 575px;
+  height: 375px
+}
+
+.google_card{
+  padding-left: 100px;
+}
+
+.text_input__input{
+  font-size: 29px;
+  box-sizing: border-box;
+  width: 471px;
+  height: 64px;
+  border-radius: 9px;
+  border: 2.5px solid black;
+  background-color: #F2EDED;
+  padding-left: 23px;
+}
+
+.text_input__input_big{
+  font-size: 29px;
+  box-sizing: border-box;
+  width: 471px;
+  height: 214px;
+  border-radius: 9px;
+  border: 2.5px solid black;
+  background-color: #F2EDED;
+  padding-left: 23px;
+}
+
+.button_submit{
+  width: 471px;
+  height: 64px;
+  border-radius: 9px;
+  background-color: black;
+  color:white ;
+  font-size: 29px;
+  font-family: 'Inter';
+}
+
+.ostavit_otziv{
+  margin-left: 140px;
+}
+
+.forma_profile{
+  padding-left: 120px;
+}
+
+.sdelat_kartu{
+  padding-top: 17px;
+  font-size:20px;
+  color: #908B8B;
+  font-family: 'Inter';
+  margin-left: 20px;
+}
+
+/*форма жиес*/
+
+.block-auth{
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #F2EDED;
+  margin: 3em auto;
+  padding: 0 1em;
+  border: 2.5px solid black;
+  border-radius: 15px;
+  box-shadow: 0 0 0 9999px rgb( 0 0 0 / 70%);
+}
+
+.krestik-img{
+  width: 25px;
+  height: 25px;
+}
+
+.btn-close-div{
+  padding-top: 20px;
+  padding-left: 155px;
+}
+
+.close-button-auth{
+  border: none;
+}
+
+.div-zag-form{
+  display: flex;
+}
+
+.b-show{
+  display: block;
+  width: 520px;
+  height: 435px;
+}
+
+.input_form{
+  font-size: 29px;
+  box-sizing: border-box;
+  width: 471px;
+  height: 74px;
+  border-radius: 9px;
+  border: 2.5px solid black;
+  background-color: #F2EDED;
+  padding-left: 23px;
+  
+}
+
+.zag_form{
+  font-size: 48px;
+  font-weight: 600;
+  font-family: 'Inter';
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-bottom: 34px;
+}
+
+.form-item{
+  padding-bottom: 33px;
+  padding-left: 16px;
+}
+
+.button-panel{
+  padding-left: 18px;
+}
+
+.submit{
+  width: 471px;
+  height: 74px;
+  border-radius: 9px;
+  background-color: black;
+  color:white ;
+  font-size: 29px;
+  font-family: 'Inter';
+}
+
+.slaider_div{
+  display: none;
+}
+
+.zagolovok_last{
+  display: none;
+}
+
+.third_section{
+  padding-bottom: 50px;
+}
+
+}
+
+/******************/
+/*                */
+/*                */
+/*     Медиа      */
+/*                */
+/*                */
+/******************/
+
+/******************/
+/*                */
+/*                */
+/*                */
+/*                */
+/*                */
+/******************/
+
+/******************/
+/*                */
+/*                */
+/*     Запросы    */
+/*                */
+/*                */
+/******************/
+
+/******************/
+/*                */
+/*                */
+/*                */
+/*                */
+/*                */
+/******************/
+
+/******************/
+/*                */
+/*                */
+/*     Телефон    */
+/*                */
+/*                */
+/******************/
+
+/******************/
+/*                */
+/*                */
+/*                */
+/*                */
+/*                */
+/******************/
+
+@media (min-width: 375px) and (max-width: 767px) { 
+	.container {
+		width: 100%;
+		max-width: 768px;
+		margin: 0 auto;
+	}
+
+  .logo{
+    margin-right: 10px;
+    width: 60px;
+    height: 69px;
+  }
+
+  .main-menu__link {
+    font-family: 'Inter';
+    font-size: 12px;
+    color: black;
+    text-decoration: none;
+    margin: 15px;
+    margin-right: 22px;
+  }
+
+  .logodsd{
+    width: 32px;
+    height: 34px;
+  }
+
+  .photo_block_right{
+    display: none;
+  }
+
+  .first_block_left{
+    width: 375px;
+    border-radius: 0px 0px 0px 0px;
+  }
+
+  .classic_coffe{
+    font-family: 'Inter';
+    font-size: 16px;
+    margin-left: 0px;
+    padding-top: 40px;
+    padding-bottom: 56px;
+    text-align: center;
+    margin-left: 40px;
+  }
+
+  .btn1section{
+    color: black;
+    display: inline-block;
+    vertical-align: middle;
+    border: 2.5px solid;
+    width: 115px;
+    line-height: 34px;
+    height: 34px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 19px;
+    background: none; 
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 16px;
+    margin-left: 118px;
+  }
+
+  .photo_block_left_two{
+    display: none;
+  }
+
+  .second_block_right{
+    width: 375px;
+    border-radius: 0px 0px 0px 0px;
+  }
+
+  .make_card {
+    font-family: 'Inter';
+    font-size: 16px;
+    width: 295px;
+    margin-left: 45px;
+    padding-top: 40px;
+    padding-bottom: 56px;
+    color: #DEDDDD;
+  }
+
+  .btn2section{
+    color: #DEDDDD;
+    display: inline-block;
+    vertical-align: middle;
+    border: 2.5px solid;
+    width: 115px;
+    line-height: 34px;
+    height: 34px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 19px;
+    background: none;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 16px;
+    margin-left: 128px;
+  }
+
+  .third_block_left{
+    background-color:#F4C5A1;
+    width: 375px;
+    border-radius: 0px 0px 0px 0px;
+  }
+
+  .make_card_third{
+    font-family: 'Inter';
+    font-size: 16px;
+    width: 295px;
+    margin-left: 44px;
+    padding-top: 40px;
+    padding-bottom: 56px;
+    color: black;
+  }
+
+  .btn3section{
+    color: black;
+    display: inline-block;
+    vertical-align: middle;
+    border: 2.5px solid;
+    width: 115px;
+    line-height: 34px;
+    height: 34px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 19px;
+    background: none;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 16px;
+    margin-left: 118px;
+  }
+
+  .zagolovok_last{
+    padding-top: 94px;
+    padding-bottom: 37px;
+    margin-left: 0px;
+    font-family: 'Inter';
+    font-size: 22px;
+    color: black;
+    text-align: center;
+  }
+
+  .main_coffe2{
+    display: none;
+  }
+
+  .main_coffe3{
+    display: none;
+  }
+
+  .main_coffe1{
+    width: 212px;
+    height: 319px;
+    margin-right: 0px;
+  }
+
+  .strelka_right{
+    padding-top: 120px;
+    margin-left: 0px;
+    width: 70px;
+  }
+
+  .strelka_left{
+    padding-top: 120px;
+    margin-right: 0px;
+    width: 70px;
+  }
+
+  .columns{
+    display: flex;
+    padding-top: 23px;
+    padding-bottom: 23px;
+  }
+  .columns{
+    display: block;
+    padding-top: 23px;
+    padding-bottom: 23px;
+  }
+
+  .first_column{
+    width: 222px;
+    margin-left: 70px;
+  }
+  
+  .second_column{
+    width: 222px;
+    margin-left: 70px;
+  }
+  
+  .third_column{
+    width: 222px;
+    margin-left: 70px;
+  }
+
+  .first_column{
+    padding-bottom: 40px;
+  }
+
+  .second_column{
+    padding-bottom: 40px;
+  }
+
+  .divi_hot_drink{
+    display: block;
+    margin-left: 20px;
+  }
+
+  .divi_cold_drinks{
+    display: block;
+    margin-left: 190px;
+  }
+
+  .hot_drinks{
+    margin-left: 20px;
+    padding-top: 40px;
+  }
+
+  .cold_drinks{
+    margin-left: 20px;
+  }
+
+  .divi_chai{
+    display: block;
+    padding-top: 46px;
+  }
+
+  .divi_coffe{
+  display: block;
+  padding-top: 46px;
+  }
+
+  .menu_hr{
+    width: 160px;
+  }
+
+  .menu_three_elements{
+    margin-left: 20px;
+  }
+
+  .bok_menu_nav{
+    margin-left: 20px;
+  }
+
+  .menu_napitki_right{
+    display: block;
+  }
+
+  .divi_cold_drinks{
+    margin-left: 20px;
+  }
+
+  .divi_yogurt{
+    display: block;
+  }
+
+  .yogurt{
+    margin-left: 20px;
+  }
+
+  .divi_yogurt{
+    margin-left: 20px;
+  }
+
+  .coffe_promik{
+    display: none;
+  }
+
+  .six_coffee_klas{
+    display: none;
+    width: 0px;
+    height: 0px;
+  }
+
+  .six_text_alciya{
+    margin-left: 0px;
+  }
+
+  .free_coffee_text{
+    width: 250px;
+    font-size: 28px;
+  }
+
+  .promokod{
+    font-size: 28px;
+  }
+
+  .how_get_zag{
+    font-size: 2em;
+  }
+
+  .tri_kryga{
+    display: block;
+  }
+
+  .f_kryg{
+    padding-bottom: 50px;
+    margin-left: 20px;
+  }
+
+  .s_kryg{
+    padding-bottom: 50px;
+    margin-left: 20px;
+  }
+
+  .t_kryg{
+    margin-left: 20px;
+  }
+
+  .akcii_text{
+    margin-left: 80px;
+  }
+
+  .six_akciya{
+    margin-left: 100px;
+  }
+
+  .six_text_alciya{
+    font-size: 2em;
+    width: 200px;
+  }
+
+  .div_contacts{
+    display: block;
+  }
+  
+  .overlay_contact{
+    display: block;
+    margin: auto;
+    background-color: #DDD0D0;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1258px;
+    background-position: center;
+  }
+
+  iframe{
+    width: 275px;
+    height: 375px
+  }
+  
+  .google_card{
+    padding-left: 50px;
+  }
+
+  .dannie{
+    width: 250px;
+    padding-left: 50px;
+  }
+
+  .otziv_hotite{
+    width: 335px;
+  }
+
+  .text_input__input{
+    font-size: 29px;
+    box-sizing: border-box;
+    width: 325px;
+    height: 59px;
+    border-radius: 9px;
+    border: 2.5px solid black;
+    background-color: #F2EDED;
+    padding-left: 23px;
+  }
+  
+  .text_input__input_big{
+    font-size: 29px;
+    box-sizing: border-box;
+    width: 325px;
+    height: 159;
+    border-radius: 9px;
+    border: 2.5px solid black;
+    background-color: #F2EDED;
+    padding-left: 23px;
+  }
+  
+  .button_submit{
+    width: 325px;
+    height: 59px;
+    border-radius: 9px;
+    background-color: black;
+    color:white ;
+    font-size: 29px;
+    font-family: 'Inter';
+  }
+  
+  .ostavit_otziv{
+    margin-left: 20px;
+  }
+
+  .six_coffee_klas{
+    display: none;
+  }
+
+  .photo_otzivi{
+    padding-left: 0px;
+  }
+
+  .forma_profile{
+    padding-left: 20px;
+  }
+  
+  .sdelat_kartu{
+    padding-top: 17px;
+    font-size:20px;
+    color: #908B8B;
+    font-family: 'Inter';
+    margin-left: 20px;
+  }
+
+
+/*форма жиес*/
+
+.block-auth{
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #F2EDED;
+  margin: 3em auto;
+  padding: 0 1em;
+  border: 2.5px solid black;
+  border-radius: 15px;
+  box-shadow: 0 0 0 9999px rgb( 0 0 0 / 70%);
+}
+
+.krestik-img{
+  width: 20px;
+  height: 20px;
+}
+
+.btn-close-div{
+  padding-top: 20px;
+  padding-left: 55px;
+}
+
+.close-button-auth{
+  border: none;
+}
+
+.div-zag-form{
+  display: flex;
+}
+
+.b-show{
+  display: block;
+  width: 220px;
+  height: 335px;
+}
+
+.input_form{
+  font-size: 29px;
+  box-sizing: border-box;
+  width: 191px;
+  height: 54px;
+  border-radius: 9px;
+  border: 2.5px solid black;
+  background-color: #F2EDED;
+  padding-left: 23px;
+  
+}
+
+.zag_form{
+  font-size: 20px;
+  font-weight: 600;
+  font-family: 'Inter';
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-bottom: 34px;
+}
+
+.form-item{
+  padding-bottom: 33px;
+  padding-left: 16px;
+}
+
+.button-panel{
+  padding-left: 18px;
+}
+
+.submit{
+  width: 171px;
+  height: 54px;
+  border-radius: 9px;
+  background-color: black;
+  color:white ;
+  font-size: 19px;
+  font-family: 'Inter';
+}
+
+::placeholder{
+  box-sizing: border-box;
+  font-size: 16px;
+  color: #908B8B;
+  font-weight: 400px;
+}
+  
+.slaider_div{
+  display: none;
+}
+
+.zagolovok_last{
+  display: none;
+}
+
+.third_section{
+  padding-bottom: 50px;
+}
+
+}
+
